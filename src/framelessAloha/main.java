@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class main {
 	public static void main(String[] args) {
-		double sumH = 0;
-		double average = 0 ;
-		for( int x = 0 ; x < 5 ; x++) {
 			Random generator = new Random();
 			Scanner sc = new Scanner(System.in) ;
 			System.out.println("Nhập vào số trạm : ");
@@ -86,10 +83,8 @@ public class main {
 			System.out.println("Số gói được giải quyết " + countOFpacketResolve);
 			double H = ((double)countOFpacketResolve )/((double)countOfuser)  ;
 			System.out.println("Hiệu suất người dùng là " + H );
-			sumH += H ;
-		}
-		average = sumH /100 ;
-		System.out.println("hieu suat trung binh la : ");
+
+		
 		}
 		
 }
